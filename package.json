@@ -10,6 +10,7 @@
     "test": "jest -c jest.config.js --detectOpenHandles",
     "lint:fix": "tslint -c tslint.json --fix 'src/**/*.ts'",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "build:watch": "tsc --watch",
     "build": "tsc",
     "dev": "nodemon --watch 'src/**/*' -e ts --exec 'ts-node' ./src/app.ts",
     "start": "npm run build && node lib/app.ts"
