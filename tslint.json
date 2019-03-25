@@ -7,7 +7,7 @@
   "jsRules": {},
   "rules": {
     "object-literal-sort-keys": false,
-    "prettier": [true, "configs"]
+    "prettier": [true, ".prettierrc"]
   },
   "rulesDirectory": [
     "tslint-plugin-prettier"
