@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "test:watch": "jest -c jest.config.js --watch",
-    "test": "jest -c jest.config.js --forceExit",
+    "test": "jest -c jest.config.js --detectOpenHandles",
     "lint:fix": "tslint -c tslint.json --fix 'src/**/*.ts'",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "build": "tsc",
